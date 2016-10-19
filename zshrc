@@ -56,17 +56,9 @@ plugins=(zsh-autosuggestions git catimg chucknorris command-not-found sprunge we
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
-export PATH="/home/eric/.local/bin:/home/eric/bin:/home/eric/.config/composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='nano'
-else
-  export EDITOR='emacs'
-fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -82,10 +74,11 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias mc='source /usr/share/mc/bin/mc-wrapper.sh'
+alias mc='source /usr/lib/mc/mc-wrapper.sh'
 alias wdls='cat /home/eric/.warprc'
 alias l='ls -lh'
 alias la='ls -lha'
+alias udo='echo "Udo hilft gern!" && sudo'
 
 # Tastaturkürzel für fuck einrichten
 function run_fuck() {
@@ -95,3 +88,4 @@ function run_fuck() {
 zle -N run_fuck
 bindkey "^f" run_fuck
 eval $(thefuck --alias)
+archey3

@@ -6,4 +6,5 @@ cd $HOME
 
 ln -sv $dotfiles/tmux.conf .tmux.conf
 ln -sv $dotfiles/zshrc .zshrc
+ln -sv $dotfiles/zshenv .zshenv
 ln -sv $dotfiles/spacemacs .spacemacs
