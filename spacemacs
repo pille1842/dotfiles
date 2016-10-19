@@ -128,3 +128,5 @@ you should place your code here."
           ("j" "Journal" entry (file+datetree "~/org/hauptbuch.org")
            "* %?\n  eingegeben %U")))
   )
+
+;; spacemacs ends here
