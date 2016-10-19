@@ -10,3 +10,5 @@ to the correct location in your home directory:
 * `spacemacs` -> `~/.spacemacs`
 * `tmux.conf` -> `~/.tmux.conf`
 * `zshrc` -> `~/.zshrc`
+* `zshenv` -> `~/.zshenv`
+
