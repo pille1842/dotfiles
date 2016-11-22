@@ -74,7 +74,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias mc='source /usr/lib/mc/mc-wrapper.sh'
+alias mc='source /usr/share/mc/bin/mc-wrapper.sh'
 alias wdls='cat /home/eric/.warprc'
 alias l='ls -lh'
 alias la='ls -lha'
@@ -88,4 +88,3 @@ function run_fuck() {
 zle -N run_fuck
 bindkey "^f" run_fuck
 eval $(thefuck --alias)
-archey3

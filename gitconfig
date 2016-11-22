@@ -1,0 +1,5 @@
+[user]
+	name = Eric Haberstroh
+	email = gpg@erixpage.de
+[commit]
+	gpgsign = 1
