@@ -3,3 +3,5 @@
 	email = gpg@erixpage.de
 [commit]
 	gpgsign = 1
+[credential]
+	helper = cache --timeout 7200
