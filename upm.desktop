@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Universal Password Manager (UPM)
+Comment=A multi-platform encrypted password manager
+Exec=/opt/upm-1.14/upm.sh
+Icon=/opt/upm-1.14/upm.png
+Terminal=false
+Type=Application
+Categories=Utilities;Application;
+
