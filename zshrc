@@ -88,3 +88,6 @@ function run_fuck() {
 zle -N run_fuck
 bindkey "^f" run_fuck
 eval $(thefuck --alias)
+
+# Eigene Aliase
+alias aenemacs='ssh -X -f aeneas emacs -mm'
