@@ -90,4 +90,4 @@ bindkey "^f" run_fuck
 eval $(thefuck --alias)
 
 # Eigene Aliase
-alias aenemacs='ssh -X -f aeneas emacs -mm'
+alias art='php artisan'
