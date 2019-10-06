@@ -7,5 +7,5 @@ cd $HOME
 ln -sv $dotfiles/zshrc .zshrc
 ln -sv $dotfiles/zshenv .zshenv
 ln -sv $dotfiles/gitconfig .gitconfig
-sudo cp -v $dotfiles/upm.desktop /usr/share/applications
+#sudo cp -v $dotfiles/upm.desktop /usr/share/applications
 
