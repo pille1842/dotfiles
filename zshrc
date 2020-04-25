@@ -75,19 +75,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias mc='source /usr/share/mc/bin/mc-wrapper.sh'
-alias wdls='cat /home/eric/.warprc'
 alias l='ls -lh'
 alias la='ls -lha'
 alias udo='echo "Udo hilft gern!" && sudo'
-
-# Tastaturkürzel für fuck einrichten
-function run_fuck() {
-    BUFFER="fuck"
-    zle accept-line
-}
-zle -N run_fuck
-bindkey "^f" run_fuck
-eval $(thefuck --alias)
-
-# Eigene Aliase
-alias art='php artisan'
