@@ -78,3 +78,7 @@ alias mc='source /usr/share/mc/bin/mc-wrapper.sh'
 alias l='ls -lh'
 alias la='ls -lha'
 alias udo='echo "Udo hilft gern!" && sudo'
+
+keychain --nogui $HOME/.ssh/id_rsa
+source $HOME/.keychain/$HOST-sh
+export GPG_TTY=$(tty)
